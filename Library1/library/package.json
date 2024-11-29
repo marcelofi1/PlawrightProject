@@ -1,0 +1,17 @@
+{
+  "name": "library",
+  "version": "1.0.0",
+  "description": "Playwright validations",
+  "main": "src/index.js",
+  "scripts": {
+    "test:button": "node tests/button.test.js",
+    "test:button:percy": "percy exec -- node tests/button.test.js"
+  },
+  "dependencies": {
+    "@percy/playwright": "^1.0.6",
+    "@percy/sdk-utils": "^1.30.1",
+    "playwright": "^1.18.0"
+  },
+  "author": "rangers",
+  "license": "MIT"
+}

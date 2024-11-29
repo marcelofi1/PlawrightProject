@@ -1,0 +1,19 @@
+{
+  "name": "qa",
+  "version": "1.0.0",
+  "description": "Playwright",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:button": "playwright test tests/button.test.js"
+  },
+  "dependencies": {
+    "@zerostep/playwright": "^0.1.5",
+    "dotenv": "^16.4.5"
+  },
+  "devDependencies": {
+    "playwright": "^1.18.0"
+  },
+  "author": "Power Rangers",
+  "license": "ISC"
+}
